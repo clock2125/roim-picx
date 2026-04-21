@@ -1,8 +1,0 @@
-name = "roim-picx"
-compatibility_date = "2026-04-21"
-pages_build_output_dir = "dist"
-
-[vars]
-BASE_URL = "http://image.bitzhong.cc"
-PICX_AUTH_TOKEN = "ylwtsmtjfyhdcmgscwhssybzsdkc"
-ALLOW_TOKEN_LOGIN = "true"
