@@ -3,5 +3,24 @@
   "compatibility_date": "2026-04-21",
   "assets": {
     "directory": "./dist"
-  }
+  },
+"r2_buckets": [
+    {
+      "binding": "PICX",
+      "bucket_name": "roim-imgs"
+    }
+  ],
+"d1_databases": [
+    {
+      "binding": "DB", // available in your Worker on env.DB
+      "database_name": "roim-d1",
+      "database_id": "92f79cb8-45fd-4df8-b2e6-90e0a3efb582"
+    }
+  ],
+"kv_namespaces": [
+    {
+      "binding": "XK",
+      "id": "2bd268d322c74ea39fb7789b57e48cc6"
+    }
+  ]
 }
